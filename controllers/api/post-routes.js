@@ -12,14 +12,10 @@ router.get('/', (req, res) => {
       {
         model: Comment,
         
-        include: {
-          model: User,
-          
-        }
       },
       {
         model: User,
-        
+    
       }
     ]
   })
@@ -40,10 +36,6 @@ router.get('/:id', (req, res) => {
       {
         model: Comment,
         
-        include: {
-          model: User,
-          
-        },
       },
       {
         model: User,
@@ -68,6 +60,8 @@ router.post('/', withAuth, (req, res) => {
   
   Post.create({
     title: req.body.title,
+    post: req.body.post,
+    userId: req.session.userId,
   })
     .then(dbPostData => res.json(dbPostData))
     .catch(err => {
