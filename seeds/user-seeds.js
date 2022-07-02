@@ -2,7 +2,7 @@ const sequelize = require('../config/connection');
 const { User, Post } = require('../models');
 
 const userdata = [
-  {
+  /* {
     username: 'Jili1',
     password: 'password123'
   },
@@ -13,7 +13,7 @@ const userdata = [
   {
     username: 'Mark3',
     password: 'password123'
-  },
+  }, */
  
 ];
 
