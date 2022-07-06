@@ -1,22 +1,29 @@
+
+
 <section>
-  <h2>Create New Post</h2>
+  <div class="columns is-vcentered">
+      <div class="colummn is-8 pb-6">
+  <h2 class="subtitle">Create New Post</h2>
 
   <form class="new-post-form">
-    <div>
+    <div class="m-2">
       <label for="post-title">Title</label>
       <input type="text" id="post-title" name="post-title" />
     </div>
     <div>
-      <label for="post-body">Body of the Post</label>
-      <input id="post-body" name="post-body" />
+      <div class="m-2">
+      <label for="post">Post</label>
+      <input id="post" name="post" />
     </div>
-    <button type="submit" class="btn">Create</button>
+    </div>
+    <button type="submit" class="btn is-success">Create</button>
   </form>
 </section>
 
 {{#if posts.length}}
 <section>
-  <h2>Your Posts</h2>
+  <div class="pb-3">
+  <h2 class="subtitle">Your Posts</h2>
   <ol>
     {{#each posts as |post|}}
     <li>
@@ -28,4 +35,5 @@
 </section>
 {{/if}}
 
+</div>
 <script src="/javascript/add-post.js"></script>

@@ -4,20 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blogs for you and for me</title>
+  
+  <title>Posts for you and for Me</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="container">
     <header>
-      <h1>
+      <h1 class="title is-1">
         <a href="/">Bloggedy Blog Blog Blog</a>
       </h1>
       <nav>
         {{#if loggedIn}}
-        <a href="/dashboard">Dashboard</a>
-        <button id="logout" class="btn-no-style">Logout</button>
+        <a href="/dashboard" class="btn is-link">Dashboard</a>
+        <button id="logout" class="btn is-warning">Logout</button>
         {{else}}
         <a href="/login">login</a>
         {{/if}}
@@ -27,7 +29,7 @@
       {{{ body }}}
     </main>
     <footer>
-      200 Lives wasted and counting...
+      200 Lives wasted and counting... (not really)
     </footer>
   </div>
   
