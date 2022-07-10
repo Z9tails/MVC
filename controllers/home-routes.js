@@ -9,16 +9,15 @@ router.get('/', (req, res) => {
   console.log('======================');
   Post.findAll({
     attributes: [
-      'id',
-      'title',
+      
     ],
     include: [
       {
         model: Comment,
+        
       },  
       {
         model: User,
-        attributes: ['username',]
       }
     ]
   })
@@ -41,11 +40,11 @@ router.get('/post/:id', async (req, res) => {
   const postData = await Post.findByPk(req.params.id, {
     include: [
     {
-      model:User,
-      attributes:['username'],
+      model: User,
+    
     },
     {
-      model:Comment,
+      model: Comment,
       include: [User], 
     }
     ]

@@ -1,5 +1,5 @@
 {
-  "name": "hacker-news-clone",
+  "name": "blogitty-blog",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -25,4 +25,5 @@
   "devDependencies": {
     "jest": "^25.1.0"
   }
+  
 }
