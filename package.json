@@ -1,14 +1,14 @@
 {
   "name": "blogitty-blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "handlebar blog",
   "main": "server.js",
   "scripts": {
     "test": "jest",
     "seeds": "node seeds/index.js",
     "start": "nodemon server.js"
   },
-  "author": "",
+  "author": "z9tails",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
@@ -26,6 +26,6 @@
     "jest": "^28.1.2"
   },
   "engines": {
-    "node": "14.x"
+    "node": "16.x"
   }
 }

@@ -21,25 +21,28 @@ a:hover {
   color: #87ceeb;
 }
 
-submit {
 
-}
 button {
   background-color: #ff0000;
+  cursor: pointer;
   border: 0;
   padding: 1%;
   color: white;
-  font-weight: bold;
-  cursor: pointer;
   border-radius: 5px;
 }
 
 button:hover {
   background-color: #87ceeb;
 }
+
+
+
 .postbutton {
   background-color: #008000;
 } 
+
+
+
 .post-list {
   margin: 10;
   padding: 10;
@@ -147,7 +150,7 @@ main {
 }
 
 .new-post-form input {
-  width: 300px;
+  width: 500px;
 }
 
 .edit-post-form {
