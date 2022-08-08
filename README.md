@@ -70,12 +70,11 @@ MVC blog full stack.
 - THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 
 ## Screenshots
-- ![online](https://user-images.githubusercontent.com/100103488/183311174-6a052b09-fbca-4427-ae48-2f99e61e3cbc.png)
-- ![lighthouse](https://user-images.githubusercontent.com/100103488/183311173-40b4c3e5-08b6-482d-85c2-1539b9aecd87.png)
+ ![login page](https://user-images.githubusercontent.com/100103488/183328729-90c101e5-4b24-42bd-8b8e-5b5a31ee2897.png)
 
 
 ## Videos
-
+https://user-images.githubusercontent.com/100103488/183328850-fa90be1c-b75b-44a6-b4ba-b947bc5b2060.mp4
 
 ## Deployment Link
 - [Repo](https://github.com/Z9tails/MVC)
