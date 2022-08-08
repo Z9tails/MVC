@@ -1,10 +1,6 @@
-# MVC
-Get Handling it
+  # MVC
+- Get Handling it
 
-
-
-
-# Budge-IT tracker
 
   ## Table of Contents
 
